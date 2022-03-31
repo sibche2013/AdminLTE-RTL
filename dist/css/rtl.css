@@ -1,0 +1,141 @@
+body{
+  text-align: right;
+}
+.wrapper,.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl,.media,.os-content,.main-header,.user-panel {
+  direction: rtl;
+}
+/*Main Content And Sidebar */
+.layout-fixed .main-sidebar {
+  right:0;
+  left: inherit;
+}
+@media (min-width: 992px){
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+  transition: margin-right .3s ease-in-out;
+  margin-right: 250px;
+  margin-left: inherit;
+}
+}
+@media (min-width: 768px){
+  .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 0!important;
+    margin-right: 75px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+    margin-left: 0!important;
+    margin-right: 0px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar-collapse .main-sidebar, .sidebar-collapse .main-sidebar::before {
+    margin-right: -250px;
+    margin-left: inherit;
+  }
+  .content-wrapper, .main-footer, .main-header {
+    margin-right: 0;
+  }
+
+}
+.main-sidebar, .main-sidebar::before {
+  transition: margin-right .3s ease-in-out,width .3s ease-in-out;
+}
+@media (max-width: 992px){
+  .sidebar-mini.sidebar-collapse .main-sidebar {
+    display: none;
+  }
+}
+/*Body Scrollbar Style*/
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+/*Sidebar Corrections*/
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+  left: 1rem;
+  right: inherit;
+}
+.nav-sidebar>.nav-item .nav-icon {
+  margin-right: 0.05rem;
+  margin-left: 0.2rem;
+  float: right;
+}
+.nav-sidebar .nav-link>.right:nth-child(2), .nav-sidebar .nav-link>p>.right:nth-child(2) {
+  left: 2.2rem;
+  right: inherit;
+}
+.user-panel .image {
+  padding-right: 0.8rem;
+}
+.nav {
+  padding-right: 0;
+  padding-left: inherit;
+}
+/*NavBar*/
+.ml-auto, .mx-auto {
+  margin-right: auto!important;
+  margin-left: inherit!important;
+}
+.navbar-nav {
+  padding-right: 0;
+  padding-left: inherit;
+}
+/*Setting Aside*/
+.control-sidebar-slide-open .control-sidebar, .control-sidebar-slide-open .control-sidebar::before {
+  left: 0;
+  transition: left .3s ease-in-out,display .3s ease-in-out;
+}
+.mr-1, .mx-1 {
+  margin-left: 0.25rem!important;
+  margin-right: inherit!important;
+}
+/*Chat Menu Option*/
+.dropdown-menu-right {
+  left: 0!important;
+  right: auto!important;
+}
+.mr-3, .mx-3 {
+  margin-left: 1rem!important;
+  margin-right: inherit!important;
+}
+/*Dashboard Icons Box*/
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.fad, .small-box .icon>i.fal, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.ion {
+  left: 15px;
+  right: auto;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  float: right;
+}
+@media (min-width: 576px){
+  .float-sm-right {
+    float: left!important;
+  }
+}
+.card-header>.card-tools {
+  float: left;
+}
+.card-title {
+   float: right;
+ }
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+ border-radius: 0.25rem 0 0 0.25rem;
+}
+.todo-list>li .tools {
+  float: left;
+}
+[class*=icheck-]>input:first-child:checked+input[type=hidden]+label::after, [class*=icheck-]>input:first-child:checked+label::after {
+  left: 7px;
+}
+.float-right {
+  float: left!important;
+}
+

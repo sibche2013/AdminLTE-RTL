@@ -106,7 +106,7 @@ New sample entry (with tree menu)
   <a href="#" class="nav-link">
     <i class="nav-icon fas fa-tachometer-alt"></i>
     <p>
-      Dashboard
+      dashboard
       <i class="right fas fa-angle-left"></i>
     </p>
   </a>
@@ -141,11 +141,11 @@ Old Content Header Markup
 ```html
 <section class="content-header">
   <h1>
-    Dashboard
+    dashboard
     <small>Control panel</small>
   </h1>
   <ol class="breadcrumb">
-    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li><a href="#"><i class="fa fa-dashboard"></i> home</a></li>
     <li class="active">Dashboard</li>
   </ol>
 </section>
@@ -159,7 +159,7 @@ New Content Header Markup
     <div class="row mb-2">
       <div class="col-sm-6">
         <h1 class="m-0 text-dark">
-          Dashboard
+          dashboard
           <small>Control panel</small>
         </h1>
       </div>

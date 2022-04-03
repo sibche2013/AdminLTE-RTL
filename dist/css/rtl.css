@@ -218,7 +218,7 @@ body::-webkit-scrollbar-thumb{
 }
 .input-group:not(.has-validation)>.custom-file:not(:last-child) .custom-file-label, .input-group:not(.has-validation)>.custom-file:not(:last-child) .custom-file-label::after, .input-group:not(.has-validation)>.custom-select:not(:last-child), .input-group:not(.has-validation)>.form-control:not(:last-child) {
   border-radius: 0;
-  border-left: 0;
+  text-align: right;
 }
 .btn-navbar {
 border-right-width: 0;
@@ -554,4 +554,87 @@ div.dataTables_wrapper div.dataTables_filter input {
 /*invoice*/
 .invoice>div.no-print>div>.btn-primary {
   margin-left: 5px;
+}
+/*contacts*/
+.fa-li {
+  right: -2em;
+  left: inherit;
+}
+.page-item:first-child .page-link {
+  margin-right: 0;
+  margin-left: inherit;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+.page-item:last-child .page-link {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+.ml-4, .mx-4 {
+  margin-right: 1.5rem!important;
+  margin-left: inherit!important;
+}
+.fa-ul {
+  margin-right: 2.5em;
+  margin-left:inherit;
+  padding-left: 0;
+  padding-right: inherit;
+}
+/*Login Page*/
+.card-body>form>div.row,.login-card-body>form>div.row,.register-card-body>form>div.row {
+  direction: rtl;
+}
+[class*=icheck-]>input:first-child:checked+label::after {
+  right: 15px;
+  left: inherit;
+}
+/*Lock Screen*/
+.lockscreen-image {
+  right: -10px;
+  left: inherit;
+}
+.lockscreen-credentials {
+  margin-left: inherit;
+  margin-right: 70px;
+  direction: rtl;
+}
+.fa-arrow-right:before {
+  content: "\f060" !important;
+}
+@media (min-width: 576px){
+  .navbar-nav>.user-menu .user-image {
+    margin-right: inherit;
+    margin-left: 0.4rem;
+  }
+}
+/*Search Page*/
+@media (min-width: 768px){
+  .offset-md-2 {
+    margin-left: inherit;
+    margin-right: 16.666667%;
+  }
+}
+@media (min-width: 768px){
+  .offset-md-1 {
+    margin-left: inherit;
+    margin-right: 8.333333%;
+  }
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li:first-child.select2-search.select2-search--inline {
+  margin-left: inherit;
+  margin-right: 0.375rem;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li:first-child.select2-search.select2-search--inline .select2-search__field {
+  text-align: right;
+}
+/*Iframe*/
+.fa-angle-double-right:before {
+  content: "\f100";
+}
+.fa-angle-double-left:before{
+  content: "\f101";
+}
+.iframe-mode>div>div>.dropdown-menu {
+  right: 0 !important;
+}
+.iframe-mode>div.wrapper>div.content-wrapper {
+  margin-right: 0 !important;
 }

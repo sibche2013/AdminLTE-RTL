@@ -483,11 +483,11 @@ ul>li>.dropdown-toggle::after {
 .CodeMirror-lines {
   text-align: left;
 }
-.dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=top] {
+/*.dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=top] {
   left: auto !important;
   right: inherit !important;
   bottom: auto;
-}
+}*/
 .note-editor .note-toolbar .note-para .note-dropdown-menu>div+div, .note-popover .popover-content .note-para .note-dropdown-menu>div+div {
   margin-right: 5px;
   margin-left: inherit !important;
@@ -629,4 +629,21 @@ div.dataTables_wrapper div.dataTables_filter input {
 }
 .iframe-mode>div.wrapper>div.content-wrapper {
   margin-right: 0 !important;
+}
+/*Advanced Forms*/
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  float: right;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  float: left;
+  margin-left: -2px;
+  margin-right: 5px;
+}
+.select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
+  float: right;
+  margin-right: inherit;
+  margin-left: 0.375rem;
+}
+.select2-container--bootstrap4 .select2-selection--multiple .select2-search__field {
+  text-align: right;
 }

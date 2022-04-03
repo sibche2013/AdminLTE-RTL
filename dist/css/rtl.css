@@ -100,10 +100,6 @@ body::-webkit-scrollbar-thumb{
   margin-right: inherit!important;
 }
 /*Chat Menu Option*/
-.dropdown-menu-right {
-  left: 0!important;
-  right: auto!important;
-}
 .mr-3, .mx-3 {
   margin-left: 1rem!important;
   margin-right: inherit!important;
@@ -247,10 +243,6 @@ ul>.dropdown-submenu>.dropdown-menu {
 .dropdown-menu {
   right: auto;
   text-align: right !important;
-}
-ul>li>.dropdown-menu.show {
-  right: 0px !important;
-  left: inherit;
 }
 .navbar-badge {
   left: 5px;

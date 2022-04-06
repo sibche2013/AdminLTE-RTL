@@ -241,7 +241,6 @@ ul>.dropdown-submenu>.dropdown-menu {
   margin-left:inherit;
 }
 .dropdown-menu {
-  right: auto;
   text-align: right !important;
 }
 .navbar-badge {

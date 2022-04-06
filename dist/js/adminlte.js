@@ -874,17 +874,13 @@
 
       if (offset.left < 0) {
         $element.css({
-          right: 'inherit',
-          left: offset.right - 5
-          //left: 'inherit',
-          //right: offset.left - 5
+          left: 'inherit',
+          right: offset.left - 5
         });
       } else if (visiblePart < width) {
         $element.css({
-          right: 'inherit',
-          left: 0
-          //left: 'inherit',
-          //right: 0
+          left: 'inherit',
+          right: 0
         });
       }
     } // Static

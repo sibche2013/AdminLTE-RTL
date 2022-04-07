@@ -646,3 +646,11 @@ div.dataTables_wrapper div.dataTables_filter input {
 .select2-container--bootstrap4 .select2-selection--multiple .select2-search__field {
   text-align: right;
 }
+/*DashBoard TimePicker World*/
+.daterangepicker .ranges li {
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: right;
+    font-family: 'IRANSans';
+}

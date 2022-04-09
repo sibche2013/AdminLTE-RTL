@@ -19,7 +19,7 @@ body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-w
 @media (min-width: 768px){
   .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
     margin-left: 0!important;
-    margin-right: 75px !important;
+    margin-right: 74px !important;
   }
 }
 @media (min-width: 768px) and (max-width: 992px){
@@ -659,4 +659,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 .users-list {
   padding-right: 0;
   list-style: none;
+}
+.brand-link .brand-image {
+  margin-left: 0.2rem;
 }

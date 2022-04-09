@@ -409,7 +409,7 @@ body.swal2-toast-shown .swal2-container.swal2-top-end, body.swal2-toast-shown .s
   content: "انتخاب فایل";
 }
 .custom-file-label {
-  border-left-width: 0;
+/*  border-left-width: 0;*/
   right: inherit;
   width: 100%;
 }
@@ -660,6 +660,31 @@ div.dataTables_wrapper div.dataTables_filter input {
   padding-right: 0;
   list-style: none;
 }
+/*Logo Image On Sidebar*/
 .brand-link .brand-image {
   margin-left: 0.2rem;
+}
+/*Switch Buttons*/
+.switch-field label:first-of-type {
+  border-radius: 0 4px 4px 0 !important;
+  margin-right: 0;
+}
+/*Modal Background*/
+.modal-backdrop.in {
+  opacity: 0.5;
+}
+/*Radio Button Group*/
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle):nth-child(2) {
+  border-radius: 0;
+}
+/*Split buttons*/
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle):nth-child(1) {
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+/*Appended Buttons*/
+.input-group:not(.has-validation)>.form-control:not(:last-child) {
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+.input-group>.input-group-prepend>.btn {
+  border-radius: 0 0.25rem 0.25rem 0;
 }

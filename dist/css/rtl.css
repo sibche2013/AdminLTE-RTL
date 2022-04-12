@@ -688,3 +688,22 @@ div.dataTables_wrapper div.dataTables_filter input {
 .input-group>.input-group-prepend>.btn {
   border-radius: 0 0.25rem 0.25rem 0;
 }
+/*Widgets Direct Chat Style*/
+.contacts-list {
+  padding-right: 0;
+  padding-left: unset;
+}
+.contacts-list-img {
+  float: right;
+}
+.contacts-list-info {
+  margin-right: 45px;
+  margin-left: unset;
+}
+.card-comments .card-comment img {
+  float: right;
+}
+.card-comments .comment-text {
+  margin-right: 40px;
+  margin-left: unset;
+}

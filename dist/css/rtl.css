@@ -707,3 +707,24 @@ div.dataTables_wrapper div.dataTables_filter input {
   margin-right: 40px;
   margin-left: unset;
 }
+/*Crousel Slider*/
+.carousel-control-next {
+  left: 0;
+  right: inherit;
+}
+.carousel-control-prev {
+  right: 0;
+  left: inherit;
+}
+.carousel-control-prev .carousel-control-custom-icon {
+  margin-right: -20px;
+  margin-left: inherit;
+}
+.carousel-control-next .carousel-control-custom-icon {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+.carousel-indicators {
+  padding-right: 0;
+  padding-left: inherit;
+}

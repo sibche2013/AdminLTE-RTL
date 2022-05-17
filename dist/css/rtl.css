@@ -48,18 +48,19 @@ body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-w
   }
 }
 /*Body Scrollbar Style*/
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,.card-body::-webkit-scrollbar,.content::-webkit-scrollbar {
   width: 1em;
 }
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track,.card-body::-webkit-scrollbar-track,.content::-webkit-scrollbar-track{
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb,.card-body::-webkit-scrollbar-thumb,.content::-webkit-scrollbar-thumb{
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
-/*Sidebar Corrections*/
+
+  /*Sidebar Corrections*/
 .nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
   left: 1rem;
   right: inherit;
@@ -319,7 +320,7 @@ blockquote {
   margin-left: auto!important;
   margin-right: inherit!important;
 }
-.toast-header{
+.toast-header, .toast-body {
   direction: rtl;
 }
 .ml-2, .mx-2 {
@@ -518,7 +519,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 .fc-h-event .fc-event-title-container {
   text-align: right;
 }
-.fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+ .fc-direction-rtl .fc-daygrid-event.fc-event-start {
   direction: rtl;
 }
 .fc-toolbar-chunk>.btn-group>.btn:not(:last-child) {
@@ -537,12 +538,12 @@ div.dataTables_wrapper div.dataTables_filter input {
 .modal-header {
   direction: rtl;
 }
-.fa-chevron-left:before {
+/*.fa-chevron-left:before {
   content: "\f054" !important;
 }
 .fa-chevron-right:before{
   content: "\f053" !important;
-}
+}*/
 /*invoice*/
 .invoice>div.no-print>div>.btn-primary {
   margin-left: 5px;
@@ -678,9 +679,9 @@ div.dataTables_wrapper div.dataTables_filter input {
   border-radius: 0;
 }
 /*Split buttons*/
-.btn-group>.btn:not(:last-child):not(.dropdown-toggle):nth-child(1) {
+/*.btn-group>.btn:not(:last-child):not(.dropdown-toggle):nth-child(1) {
   border-radius: 0 0.25rem 0.25rem 0 !important;
-}
+}*/
 /*Appended Buttons*/
 .input-group:not(.has-validation)>.form-control:not(:last-child) {
   border-radius: 0 0.25rem 0.25rem 0 !important;
@@ -727,4 +728,24 @@ div.dataTables_wrapper div.dataTables_filter input {
 .carousel-indicators {
   padding-right: 0;
   padding-left: inherit;
+}
+/*calendar*/
+.btn-group>button.fc-dayGridMonth-button.btn.btn-primary.active {
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+/*light box*/
+.ekko-lightbox-nav-overlay a span {
+  text-align: left;
+}
+/*Profile Page*/
+.timeline-body>img {
+  width: 100%;
+}
+/*login box*/
+.input-group-text.brClass {
+  border: 1px solid #ced4da !important;
+ border-right: 0 !important;
+}
+input.form-control.inputBrClass {
+  border-right: 1px solid #ced4da !important;
 }

@@ -1,25 +1,11 @@
 {
-  "name": "almasaeed2010/adminlte",
-  "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
-  "homepage": "https://adminlte.io/",
-  "keywords": [
-    "css",
-    "js",
-    "less",
-    "responsive",
-    "back-end",
-    "template",
-    "theme",
-    "web",
-    "admin"
-  ],
-  "authors": [
-    {
-      "name": "Colorlib"
-    }
-  ],
-  "license": "MIT",
-  "support": {
-    "issues": "https://github.com/ColorlibHQ/AdminLTE/issues"
-  }
+    "name": "sibche2013/admin-lte-rtl",
+    "description": "RTL Version Of AdminLTE V3.2 Template - AminArjmand.Com",
+    "authors": [
+        {
+            "name": "Amin Arjmand",
+            "email": "aminarj2000@gmail.com"
+        }
+    ],
+    "require": {}
 }

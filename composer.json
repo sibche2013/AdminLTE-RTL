@@ -1,11 +1,15 @@
 {
     "name": "sibche2013/admin-lte-rtl",
     "description": "RTL Version Of AdminLTE V3.2 Template - AminArjmand.Com",
+  "homepage": "https://aminarjmand.com/",
     "authors": [
         {
             "name": "Amin Arjmand",
             "email": "aminarj2000@gmail.com"
         }
     ],
-    "require": {}
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/ColorlibHQ/AdminLTE/issues"
+  }
 }

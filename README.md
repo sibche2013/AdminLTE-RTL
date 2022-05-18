@@ -1,13 +1,13 @@
-# [قالب فارسی پنل مدیریت AdminLTE | قالب راستچین AdminLTE |  قالب فارسی سازی شده AdminLTE | 3.2](https://adminlte.io)
+# [قالب فارسی پنل مدیریت AdminLTE | قالب راستچین AdminLTE |  قالب فارسی سازی شده AdminLTE | 3.2](https://aminarjmand.com/demo/AdminLteRTL)
 
 **AdminLTE** یک قالب مدیریتی کاملا ریسپانسیو بر پایه بوت استرپ نسخه 4.6 هستش. کاملا قابل شخصی سازی کردن و راحت در استفاده کردن. 
 
-**مشاهده پیشنمایش قالب [AminArjmand.Com](https://adminlte.io/themes/v3)**
+**مشاهده پیشنمایش قالب [AminArjmand.Com](https://aminarjmand.com/demo/AdminLteRTL)**
 
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
+!["AdminLTE Presentation"](https://aminarjmand.com/demo/AdminLteRTL/AdminLteRTL.png "AdminLTE Presentation")
 
 ## شروع سریع
-چند راه برای نصب و استفاده قالب فارسی پنل مدیریت AdminLTE وجود دارد.
+قالب رو دانلود کنید و استفاده کنید!
 
 ### دانلود:
 پیشنهاد می شود که آخرین نسخه رو از گیت دریافت کنید: [AdminLTE 3 فارسی](https://github.com/sibche2013/AdminLTE-RTL) 

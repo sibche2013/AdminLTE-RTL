@@ -1,8 +1,8 @@
-# [قالب فارسی پنل مدیریت AdminLTE 3 | قالب راست‌چین AdminLTE | قالب داشبورد مدیریتی فارسی v3.2](https://demo.aminarjmand.com/AdminLteRTL-V3)
+# [قالب فارسی پنل مدیریت AdminLTE 3 | قالب راست‌چین AdminLTE | قالب داشبورد مدیریتی فارسی v3.2](https://demo.aminarjmand.com/AdminLTE-RTL-V3/)
 
 **قالب AdminLTE** یکی از محبوب‌ترین، پیشرفته‌ترین و کاربردی‌ترین قالب‌های پنل مدیریت در سراسر جهان است. این نسخه، **نسخه کاملاً فارسی‌سازی شده و راست‌چین (RTL)** قالب AdminLTE نسخه 3.2 است که بر پایه فریم‌ورک قدرتمند **بوت‌سترپ 4.6 (Bootstrap 4.6)** توسعه یافته است. این داشبورد مدیریتی کاملاً ریسپانسیو (واکنش‌گرا)، سبک، انعطاف‌پذیر و با قابلیت شخصی‌سازی بسیار بالا طراحی شده است تا فرآیند توسعه پروژه‌های وب شما را سرعت ببخشد.
 
-[![مشاهده پیش‌نمایش زنده](https://img.shields.io/badge/Live_Demo-پیش%20نمایش%20زنده-blue?style=for-the-badge)](https://demo.aminarjmand.com/AdminLteRTL-V3)
+[![مشاهده پیش‌نمایش زنده](https://img.shields.io/badge/Live_Demo-View%20Demo-blue?style=for-the-badge)](https://demo.aminarjmand.com/AdminLTE-RTL-V3/)
 
 ---
 
@@ -25,7 +25,7 @@
 ```bash
 
 git clone [https://github.com/sibche2013/AdminLTE-RTL-V3.git](https://github.com/sibche2013/AdminLTE-RTL-V3.git)
-
+```
 
 ### دانلود آخرین نسخه
 پیشنهاد می‌شود همیشه آخرین نسخه بهینه‌سازی شده را مستقیماً دریافت کنید:

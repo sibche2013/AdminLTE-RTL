@@ -2,6 +2,9 @@
 body{
   text-align: right;
 }
+[dir="rtl"], [dir="rtl"] *,body {
+            font-family: 'Vazirmatn', 'Inter', -apple-system, sans-serif;
+}
 .wrapper,.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl,.media,.os-content,.main-header,.user-panel {
   direction: rtl;
 }

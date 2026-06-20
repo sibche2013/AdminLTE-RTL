@@ -24,7 +24,7 @@
 
 ```bash
 
-git clone [https://github.com/sibche2013/AdminLTE-RTL-V3.git](https://github.com/sibche2013/AdminLTE-RTL-V3.git)
+git clone https://github.com/sibche2013/AdminLTE-RTL-V3.git
 ```
 
 ### دانلود آخرین نسخه

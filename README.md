@@ -1,8 +1,15 @@
 # [قالب فارسی پنل مدیریت AdminLTE 3 | قالب راست‌چین AdminLTE | قالب داشبورد مدیریتی فارسی v3.2](https://demo.aminarjmand.com/AdminLTE-RTL-V3/)
 
 **قالب AdminLTE** یکی از محبوب‌ترین، پیشرفته‌ترین و کاربردی‌ترین قالب‌های پنل مدیریت در سراسر جهان است. این نسخه، **نسخه کاملاً فارسی‌سازی شده و راست‌چین (RTL)** قالب AdminLTE نسخه 3.2 است که بر پایه فریم‌ورک قدرتمند **بوت‌سترپ 4.6 (Bootstrap 4.6)** توسعه یافته است. این داشبورد مدیریتی کاملاً ریسپانسیو (واکنش‌گرا)، سبک، انعطاف‌پذیر و با قابلیت شخصی‌سازی بسیار بالا طراحی شده است تا فرآیند توسعه پروژه‌های وب شما را سرعت ببخشد.
-
-[![مشاهده پیش‌نمایش زنده](https://img.shields.io/badge/Live_Demo-View%20Demo-blue?style=for-the-badge)](https://demo.aminarjmand.com/AdminLTE-RTL-V3/)
+<p align="center">
+  <a target="_blank" href="https://demo.aminarjmand.com/AdminLTE-RTL-V3/">
+    <img src="https://img.shields.io/badge/Live_Demo-⚡_Launch_Project-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+  </a>
+  &nbsp;&nbsp;
+  <a target="_blank" href="https://demo.aminarjmand.com/AdminLTE-RTL-V3/">
+    <img src="https://img.shields.io/badge/GitHub_Pages-Active-success?style=for-the-badge&logo=github" alt="GitHub Pages" />
+  </a>
+</p>
 
 ---
 
@@ -49,4 +56,6 @@ git clone https://github.com/sibche2013/AdminLTE-RTL-V3.git
 قالب AdminLTE تحت لایسنس **MIT** منتشر شده است و استفاده از آن برای پروژه‌های شخصی و تجاری کاملاً **رایگان** و آزاد است.
 
 ---
-📣 **حمایت از پروژه:** اگر این نسخه راست‌چین و فارسی‌شده برای شما مفید بود، لطفا با دادن **Star ⭐️** به این مخزن از ما حمایت کنید.
+
+---
+⭐️ *If you found this dashboard layout useful, please give this repository a star! / اگر این مخزن برای شما مفید بود، لطفا با دادن ستاره از آن حمایت کنید!*

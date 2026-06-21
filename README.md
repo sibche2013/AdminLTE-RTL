@@ -60,5 +60,5 @@ git clone https://github.com/sibche2013/AdminLTE-RTL-V3.git
 
 ---
 ⭐️ *If you found this dashboard layout useful, please give this repository a star! 
-<br>
+
 ⭐️ اگر این مخزن برای شما مفید بود، لطفا با دادن ستاره از آن حمایت کنید!
